@@ -26,3 +26,4 @@ C:\Users\HIS MERCY\Desktop\Calculator\obj\Debug\net8.0\refint\MyCalculator.dll
 C:\Users\HIS MERCY\Desktop\Calculator\obj\Debug\net8.0\MyCalculator.pdb
 C:\Users\HIS MERCY\Desktop\Calculator\obj\Debug\net8.0\MyCalculator.genruntimeconfig.cache
 C:\Users\HIS MERCY\Desktop\Calculator\obj\Debug\net8.0\ref\MyCalculator.dll
+C:\Users\HIS MERCY\Desktop\Calculator\obj\Debug\net8.0\MyCalculator.sourcelink.json

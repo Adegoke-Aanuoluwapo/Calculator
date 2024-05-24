@@ -9,9 +9,33 @@ class Program
 {
  static void Main(string[] args)
  {
+  int num1;
+  int num2;
+  string answer;
+  int result;
+
   Console.WriteLine("Hello, World!");
   Console.WriteLine("Please enter a number");
 
-  Console
+  num1 = Convert.ToInt32(Console.ReadLine());
+  num2 = Convert.ToInt32(Console.ReadLine());
+  Console.WriteLine("What type of operation would you like to do");
+  Console.WriteLine("a. Addition, s. Subtraction, m. multiplication");
+  answer = Console.ReadLine();
+  if(answer == "a")
+  {
+   result = num1 + num2;
+  }
+  else if(answer == "s")
+  {
+   result = num1 - num2;
+  }
+  else if (answer == "m"){
+   result = num1 * num2;
+  }
+  Console.WriteLine("The result is " + result);
+  Console.WriteLine("Thanks for using this calculator")
+  Console.ReadKey();
+
  }
 }
