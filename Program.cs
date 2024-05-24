@@ -18,6 +18,7 @@ class Program
   Console.WriteLine("Please enter a number");
 
   num1 = Convert.ToInt32(Console.ReadLine());
+  Console.WriteLine("Please enter the second number");
   num2 = Convert.ToInt32(Console.ReadLine());
   Console.WriteLine("What type of operation would you like to do");
   Console.WriteLine("a. Addition, s. Subtraction, m. multiplication");
