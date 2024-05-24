@@ -12,7 +12,7 @@ class Program
   int num1;
   int num2;
   string answer;
-  int result;
+  int result = 0;
 
   Console.WriteLine("Hello, World!");
   Console.WriteLine("Please enter a number");
@@ -22,19 +22,20 @@ class Program
   Console.WriteLine("What type of operation would you like to do");
   Console.WriteLine("a. Addition, s. Subtraction, m. multiplication");
   answer = Console.ReadLine();
-  if(answer == "a")
+  if (answer == "a")
   {
    result = num1 + num2;
   }
-  else if(answer == "s")
+  else if (answer == "s")
   {
    result = num1 - num2;
   }
-  else if (answer == "m"){
+  else if (answer == "m")
+  {
    result = num1 * num2;
   }
   Console.WriteLine("The result is " + result);
-  Console.WriteLine("Thanks for using this calculator")
+  Console.WriteLine("Thanks for using this calculator");
   Console.ReadKey();
 
  }
